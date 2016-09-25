@@ -20,3 +20,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 module main;
 alias BoardPosition = int[int[8]];
+
+char DisplayRank(int n)
+{
+  return "1234567"[n];
+}
+char DisplayFile(int n)
+{
+  return "abcdefgh"[n];
+}
