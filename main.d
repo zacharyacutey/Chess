@@ -1,6 +1,5 @@
 
 /*
-The good old memory of Garrett's Riddle Quiz
 Copyright (C) 2016 Zachary Taylor
 
 This program is free software; you can redistribute it and/or
