@@ -19,13 +19,26 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 module main;
-alias BoardPosition = int[int[8]];
+alias BoardPosition = int[int[2]];
 
-char DisplayRank(int n)
+char DisplayRank(int n) //Returns the rank char from an integer
 {
   return "1234567"[n];
 }
-char DisplayFile(int n)
+char DisplayFile(int n) //Returns the file char from an integer
 {
   return "abcdefgh"[n];
+}
+int indexOf(T)(T[] array,T item)
+{
+   int i = 0;
+   while(i!=array.length)
+   {
+     if(array[i]==item)
+     {
+       return i;
+     }
+     i++;
+   }
+   return -1;
 }
